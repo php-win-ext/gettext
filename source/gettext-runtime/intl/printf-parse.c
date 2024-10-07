@@ -49,7 +49,7 @@
 
 /* Get intmax_t.  */
 #if _MSC_VER
-# define intmax_t long int
+/*# define intmax_t long int*/
 #elif defined IN_LIBINTL || defined IN_LIBASPRINTF
 # if HAVE_STDINT_H_WITH_UINTMAX
 #  include <stdint.h>

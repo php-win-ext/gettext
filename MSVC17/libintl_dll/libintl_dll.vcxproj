@@ -270,6 +270,11 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ProgramDataBaseFileName>$(IntDir)libintl.pdb</ProgramDataBaseFileName>
       <UndefinePreprocessorDefinitions>UNICODE</UndefinePreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <ConformanceMode>true</ConformanceMode>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ShowIncludes>true</ShowIncludes>
     </ClCompile>
     <Link>
       <OutputFile>arm64\Release\libintl.dll</OutputFile>
